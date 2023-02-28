@@ -1,1 +1,1 @@
-# -SportRadar.API
+# SportRadar.API
