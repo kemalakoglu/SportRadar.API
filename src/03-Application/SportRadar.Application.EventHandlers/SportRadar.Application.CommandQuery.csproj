@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\02-Domain\SportRadar.Domain.Contract\SportRadar.Domain.Contract.csproj" />
+    <ProjectReference Include="..\SportRadar.Application.Contract\SportRadar.Application.Contract.csproj" />
+  </ItemGroup>
+
+</Project>

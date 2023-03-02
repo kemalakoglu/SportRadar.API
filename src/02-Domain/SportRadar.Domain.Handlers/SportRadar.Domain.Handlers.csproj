@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="IRepositoryWrapper.cs" />
+    <Compile Remove="MainRepository.cs" />
+    <Compile Remove="RepositoryQueryHelper.cs" />
+    <Compile Remove="RepositoryWrapper.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Fixture\Command\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SportRadar.Domain.Aggregate\SportRadar.Domain.Aggregate.csproj" />
+    <ProjectReference Include="..\SportRadar.Domain.Contract\SportRadar.Domain.Contract.csproj" />
+  </ItemGroup>
+
+</Project>
