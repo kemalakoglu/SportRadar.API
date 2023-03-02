@@ -7,11 +7,9 @@ namespace SportRadar.Presentation.API.Controllers
     public class FıxtureController : Controller
     {
         private readonly IApplicationCommandQuery applicationCommandQuery;
-        private readonly IMapper mapper;
-        public FıxtureController(IApplicationCommandQuery applicationCommandQuery, IMapper mapper)
+        public FıxtureController(IApplicationCommandQuery applicationCommandQuery)
         {
             this.applicationCommandQuery = applicationCommandQuery;
-            this.mapper = mapper;
         }
     }
 }
