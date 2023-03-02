@@ -33,7 +33,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportRadar.Domain.Test", "s
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportRadar.Application.Test", "src\03-Application\SportRadar.Application.Test\SportRadar.Application.Test\SportRadar.Application.Test.csproj", "{1FF9E10D-60A0-4077-908A-9F895D2C6E5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "src\04-Presentation\SportRadar.Presentation.Test\TestProject1\TestProject1.csproj", "{808DEFF5-7947-4C40-A445-1D1076C8DFF1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportRadar.Presentation.Test", "src\04-Presentation\SportRadar.Presentation.Test\TestProject1\SportRadar.Presentation.Test.csproj", "{808DEFF5-7947-4C40-A445-1D1076C8DFF1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
